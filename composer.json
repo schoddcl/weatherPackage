@@ -1,0 +1,20 @@
+{
+    "name": "schoddcl/weather-package",
+    "description": "OpenWeather package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Schoddcl\\WeatherPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Caroline Schodde",
+            "email": "schoddcl@miamioh.edu"
+        }
+    ],
+    "require": {
+	"guzzlehttp/guzzle": "^7.4"
+}
+}
